@@ -1,3 +1,8 @@
+This is a fork of tflearn 5.0 with fixes to let it work with tensorflow 2.20.0
+
+Replaced `is_sequence` with `is_sequence_or_composite` in tflearn/layers/recurrent.py
+Replaced `PIL.Image.ANTIALIAS` with `PIL.Image.Resampling.LANCZOS` in tflearn/data_utils.py
+
 [![Build Status](https://travis-ci.org/tflearn/tflearn.svg?branch=master)](https://travis-ci.org/tflearn/tflearn)
 [![PyPI version](https://badge.fury.io/py/tflearn.svg)](https://badge.fury.io/py/tflearn)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
